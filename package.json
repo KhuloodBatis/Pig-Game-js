@@ -1,0 +1,25 @@
+{
+  "name": "coursejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": " postcss tailwind.css -o ./layouts/css/styles.css --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/khuloodbatis/course-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/khuloodbatis/course-js/issues"
+  },
+  "homepage": "https://gitlab.com/khuloodbatis/course-js#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.7"
+  }
+}

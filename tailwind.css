@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@tailwind base;
+@tailwind components;
+
+.player--active{
+    @apply bg-[#d4a5b2];
+}
+.player--active2{
+    @apply bg-[#d4a5b2];
+}
+ .player--winner{
+    @apply bg-[#5e3944] text-[#b93d60] 
+ }
+
+ .player--{
+    @apply text-[#000] 
+ }
+@tailwind utilities;

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="shortcut icon" href="#" />
+<link rel="stylesheet" href="./css/styles.css" />
+<title>Pig Game</title>
+</head>
+<body class=" relative w-full xl:w-[900px] h-[1000px] bg-gradient-to-tl to-pink-700 from-purple-600 m-[50px] pl-20 pr-20 ml-0 xl:ml-[600px]">
+<main>
+    <div class="flex justify-center h-[400px]  shadow-2xl shadow-black ">
+        <section class="player player--0 player--active  bg-[#d4a5b2] rounded-tl-md rounded-bl-md w-1/2 text-center ">
+            <h2 class="name mt-10 text-2xl mb-10" id="name--0">Player 1</h2>
+            <p class="score  mb-20 text-5xl text-[#b93d60]" id="score--0">24</p>
+            <div class="current bg-[#b93d60] h-20 w-28 ml-20 xl:ml-32 rounded-md">
+              <p class="current-label text-white ">Current</p>
+              <p class="current-score text-white" id="current--0">0</p>
+            </div>
+          </section>
+          <section class="player player--1  w-1/2  bg-[#af6f8e] rounded-tr-md rounded-br-md text-center">
+            <h2 class="name mt-10 text-2xl mb-10" id="name--1">Player 2</h2>
+            <p class="score mb-20 text-5xl text-[#b93d60]" id="score--1">43</p>
+            <div class="current bg-[#b93d60] h-20 w-28 ml-20 xl:ml-32 rounded-md text-center ">
+              <p class="current-label text-white ">Current</p>
+              <p class="current-score text-white" id="current--1">0</p>
+            </div>
+          </section>
+    </div>
+
+
+  <img src="/dice-5.png" alt="Playing dice" class="dice hidden translate-x-56 -translate-y-80  w-20 h-15 shadow-2xl shadow-gray-600 absolute" />
+  <img src="/dice-win.png" alt="Playing dice" class="dice-win hidden translate-x-56 -translate-y-80  w-20 h-15  absolute   bg-[#b93d60]" />
+  <div class=" absolute">
+    <button class="btn btn--new  bg-white  rounded-full w-[120px] h-7 opacity-80 translate-x-48 xl:translate-x-[300px] -translate-y-[390px] shadow-lg shadow-gray-500">🔄 New game</button>
+    <button class="btn btn--roll  bg-white  rounded-full w-[120px] h-7 opacity-80 translate-x-20 xl:translate-x-[190px] -translate-y-44 shadow-lg shadow-gray-500">🎲 Roll dice</button>
+    <button class="btn btn--hold  bg-white  rounded-full w-[90px] h-7 opacity-80 -translate-x-[30px] xl:translate-x-[80px] -translate-y-32 shadow-lg shadow-gray-500">📥 Hold</button>
+  </div>
+
+</main>
+<script src="./js/script1.js"></script>
+</body>
+</html>
+
+
